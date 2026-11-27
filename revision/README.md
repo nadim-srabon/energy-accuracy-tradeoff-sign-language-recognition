@@ -22,3 +22,7 @@ verified before every run). The control cohort is reported side by side and neve
   `gpu_package_ext/run_ext.py` eb9a5baf…, `gpu_package_nw4/run_ext.py` f7dfe3a7….
 
 Paths in the `config*.json` files are those of the original machine (`D:/...`); edit them before rerunning.
+Line endings: git stores text files with LF line endings. `gpu_package_ext/run_ext.py` was executed
+with Windows (CRLF) line endings, which is the version whose SHA-256 (`eb9a5baf…`) is recorded in the
+run provenance; the checked-out LF copy hashes to `ec7d4fbe…` and differs only in line endings
+(verify with `tr -d '\r'` or by converting to CRLF). The same applies to `gpu_package_ext/SHA256SUMS.txt`.
