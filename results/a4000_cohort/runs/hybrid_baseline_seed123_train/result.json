@@ -1,0 +1,79 @@
+{
+  "model": "hybrid",
+  "variant": "baseline",
+  "seed": 123,
+  "cohort": "local_pc_a4000_rebuiltcache_v1",
+  "manifest_sha256": "62334c358efc8e8c94b09b8f12189d12ce307c3eee2c2f73e940c4ddedcfaa0c",
+  "mode": "train",
+  "lr": 0.0001,
+  "test_clips": 1436,
+  "test_top1_pct": 28.203342618384404,
+  "test_top5_pct": 61.14206128133704,
+  "train_kwh": 0.346940881281043,
+  "inference_windows": [
+    {
+      "repeat": 0,
+      "clips": 1436,
+      "seconds": 96.20946500002174,
+      "kwh": 0.005780756619893729,
+      "kwh_per_clip": 4.025596531959421e-06,
+      "batch_amortized_ms_per_clip": 66.99823467968088,
+      "peak_allocated_gb": 2.421605110168457
+    },
+    {
+      "repeat": 1,
+      "clips": 1436,
+      "seconds": 96.23970179999014,
+      "kwh": 0.005786900313313247,
+      "kwh_per_clip": 4.029874869995297e-06,
+      "batch_amortized_ms_per_clip": 67.01929094706834,
+      "peak_allocated_gb": 2.421605110168457
+    },
+    {
+      "repeat": 2,
+      "clips": 1436,
+      "seconds": 96.18494160001865,
+      "kwh": 0.005773678360008399,
+      "kwh_per_clip": 4.020667381621447e-06,
+      "batch_amortized_ms_per_clip": 66.98115710307705,
+      "peak_allocated_gb": 2.421605110168457
+    }
+  ],
+  "inference_kwh_per_clip": 4.025379594525388e-06,
+  "gate_mean": [
+    0.5434156394914027,
+    0.4565843606493867
+  ],
+  "gate_quantiles": [
+    [
+      6.458517600549385e-05,
+      1.5488527651541517e-06
+    ],
+    [
+      0.15754817426204681,
+      0.04296270292252302
+    ],
+    [
+      0.5697535276412964,
+      0.4302464872598648
+    ],
+    [
+      0.9570372849702835,
+      0.8424518555402756
+    ],
+    [
+      0.9999984502792358,
+      0.9999353885650635
+    ]
+  ],
+  "gate_mean_entropy_nats": 0.3346367219186555,
+  "branch_feature_l2_norm_mean": [
+    40.5174079791417,
+    30.685947734333347
+  ],
+  "checkpoint_diagnostic_top1_pct": {
+    "aux_cnn": 34.26183844011142,
+    "aux_swin": 25.90529247910863,
+    "fixed_fusion": 26.323119777158777
+  }
+}

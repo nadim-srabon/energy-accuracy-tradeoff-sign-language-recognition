@@ -1,0 +1,5 @@
+[
+  ["--model", "r2plus1d", "--mode", "overfit", "--steps", "100"],
+  ["--model", "swin3d", "--mode", "overfit", "--steps", "100"],
+  ["--model", "mobilevit", "--mode", "overfit", "--steps", "100"]
+]

@@ -1,0 +1,6 @@
+Model,Top-1 primary seed (%),Top-1 mean across seeds (%),Top-1 std (pp),clears_50pct_threshold,clears_60pct_threshold,clears_70pct_threshold,mean_clears_50pct,mean_clears_60pct,mean_clears_70pct
+MobileNetV3-Small,6.6,5.7,1.1,False,False,False,False,False,False
+ResNet-50,52.45,52.12,0.3,True,False,False,True,False,False
+ViViT-Lite,11.57,9.39,1.9,False,False,False,False,False,False
+TimeSformer,60.89,59.9,1.37,True,True,False,True,False,False
+TinyMSLR-hybrid,32.86,34.68,2.85,False,False,False,False,False,False

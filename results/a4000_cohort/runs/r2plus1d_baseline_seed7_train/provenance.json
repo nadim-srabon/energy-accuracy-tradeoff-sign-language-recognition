@@ -1,0 +1,137 @@
+{
+  "model": "r2plus1d",
+  "variant": "baseline",
+  "seed": 7,
+  "mode": "train",
+  "cohort": "local_pc_a4000_rebuiltcache_v1",
+  "manifest_sha256": "62334c358efc8e8c94b09b8f12189d12ce307c3eee2c2f73e940c4ddedcfaa0c",
+  "notebook_sha256": "cdebfa621a0a38c12102812b3c84d618e52f033ef65f383c09ddf227b0ffc81c",
+  "config": {
+    "WORK_DIR": "D:\\nsyss50_results_ext\\local_pc_a4000_rebuiltcache_v1\\r2plus1d_baseline_seed7_train",
+    "SPLITS_DIR": "D:\\asl_citizen_download\\meta",
+    "MODEL_TAG": "r2plus1d18_cnn_video_k400",
+    "CHECKPOINT_DIR": "D:\\nsyss50_results_ext\\local_pc_a4000_rebuiltcache_v1\\r2plus1d_baseline_seed7_train",
+    "OUTPUT_DIR": "D:\\nsyss50_results_ext\\local_pc_a4000_rebuiltcache_v1\\r2plus1d_baseline_seed7_train",
+    "TOP_K_CLASSES": 100,
+    "FRAME_COUNT": 16,
+    "APPEARANCE_STREAM_IDX": 0,
+    "IMAGE_SIZE": 224,
+    "BACKBONE": "resnet50",
+    "UNFREEZE_FROM_LAYER": "layer4",
+    "BATCH_SIZE": 8,
+    "NUM_WORKERS": 0,
+    "LR": 0.0001,
+    "WEIGHT_DECAY": 0.0003,
+    "GRAD_CLIP_NORM": 0.5,
+    "LABEL_SMOOTHING": 0.1,
+    "EPOCHS_FULL": 30,
+    "MIN_EPOCHS_BEFORE_STOPPING": 15,
+    "EARLY_STOPPING_PATIENCE": 6,
+    "ACCURACY_GATE_THRESHOLD": 0.6,
+    "ACCURACY_GATE_THRESHOLDS_FOR_SENSITIVITY": [
+      0.5,
+      0.6,
+      0.7
+    ],
+    "SEED": 7,
+    "SEEDS": [
+      7
+    ],
+    "DEVICE": "cuda:0",
+    "GRID_CARBON_INTENSITY_KG_PER_KWH": 0.41272,
+    "EXPECTED_INFERENCE_VOLUME": 100000,
+    "DEPLOYMENT_VOLUME_SENSITIVITY": [
+      10000,
+      100000,
+      1000000
+    ],
+    "INFERENCE_PROFILING_PASSES": 3
+  },
+  "settings": {
+    "cache_dirs": [
+      "D:/asl_cache_rebuilt/cache"
+    ],
+    "splits_dir": "D:/asl_citizen_download/meta",
+    "output_dir": "D:/nsyss50_results_ext",
+    "cohort": "local_pc_a4000_rebuiltcache_v1",
+    "gpu_id": 0,
+    "inference_repeats": 3,
+    "inference_min_seconds": 60,
+    "expected_manifest_sha256": "62334c358efc8e8c94b09b8f12189d12ce307c3eee2c2f73e940c4ddedcfaa0c",
+    "reference_results_dir": "D:/nsyss50_results/local_pc_a4000_rebuiltcache_v1"
+  },
+  "hardware": {
+    "torch_version": "2.10.0+cu128",
+    "cuda_version_torch_built_with": "12.8",
+    "cudnn_version": 91002,
+    "python_version": "3.13.17",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "cpu_count_logical": 20,
+    "gpu_available": true,
+    "gpu_name": "NVIDIA RTX A4000",
+    "gpu_count": 1,
+    "gpu_total_memory_gb": 15.99,
+    "gpu_capability": "8.6",
+    "ram_total_gb": 31.71
+  },
+  "trainable_parameters": 23546824,
+  "total_parameters": 31351425,
+  "trainable_names": [
+    "backbone.layer4.0.conv1.0.0.weight",
+    "backbone.layer4.0.conv1.0.1.weight",
+    "backbone.layer4.0.conv1.0.1.bias",
+    "backbone.layer4.0.conv1.0.3.weight",
+    "backbone.layer4.0.conv1.1.weight",
+    "backbone.layer4.0.conv1.1.bias",
+    "backbone.layer4.0.conv2.0.0.weight",
+    "backbone.layer4.0.conv2.0.1.weight",
+    "backbone.layer4.0.conv2.0.1.bias",
+    "backbone.layer4.0.conv2.0.3.weight",
+    "backbone.layer4.0.conv2.1.weight",
+    "backbone.layer4.0.conv2.1.bias",
+    "backbone.layer4.0.downsample.0.weight",
+    "backbone.layer4.0.downsample.1.weight",
+    "backbone.layer4.0.downsample.1.bias",
+    "backbone.layer4.1.conv1.0.0.weight",
+    "backbone.layer4.1.conv1.0.1.weight",
+    "backbone.layer4.1.conv1.0.1.bias",
+    "backbone.layer4.1.conv1.0.3.weight",
+    "backbone.layer4.1.conv1.1.weight",
+    "backbone.layer4.1.conv1.1.bias",
+    "backbone.layer4.1.conv2.0.0.weight",
+    "backbone.layer4.1.conv2.0.1.weight",
+    "backbone.layer4.1.conv2.0.1.bias",
+    "backbone.layer4.1.conv2.0.3.weight",
+    "backbone.layer4.1.conv2.1.weight",
+    "backbone.layer4.1.conv2.1.bias",
+    "head.weight",
+    "head.bias"
+  ],
+  "split_clip_counts": {
+    "train": 1727,
+    "val": 381,
+    "test": 1436
+  },
+  "runner": "gpu_package_ext/run_ext.py",
+  "runner_sha256": "eb9a5baf15b02ac2a16b5a7fd1897ff2c1ad2158fdb5b4b4f261d4c250cef6b5",
+  "extension_model": {
+    "base": "resnet",
+    "arch": "r2plus1d18.py",
+    "family": "CNN",
+    "tag": "r2plus1d18_cnn_video_k400",
+    "base_notebook": "green-computing-over-slr-model-resnet50_v2.ipynb",
+    "arch_sha256": "cb7c5e1e19fda4dd825c546d96b73f7d7aac679340397fb21ae0ab5d5f1da0c6",
+    "input_normalization": {
+      "mean": [
+        0.43216,
+        0.394666,
+        0.37645
+      ],
+      "std": [
+        0.22803,
+        0.22145,
+        0.216989
+      ]
+    }
+  }
+}

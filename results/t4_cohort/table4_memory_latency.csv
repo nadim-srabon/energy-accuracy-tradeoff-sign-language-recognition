@@ -1,0 +1,6 @@
+Model,Peak train GPU mem (GB),Peak inference GPU mem (GB),Latency per clip (ms)
+MobileNetV3-Small,0.363,0.349,21.026756849755966
+ResNet-50,1.603,1.602,48.02373985830198
+ViViT-Lite,0.82,0.354,24.17516855023729
+TimeSformer,2.914,1.385,139.96121312022518
+TinyMSLR-hybrid,3.084,2.432,164.72633939165016

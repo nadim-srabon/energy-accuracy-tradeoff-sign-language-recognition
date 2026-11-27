@@ -1,0 +1,9 @@
+{
+  "cache_dirs": ["D:/asl_cache/feature_cache_shard_0", "D:/asl_cache/feature_cache_shard_1", "D:/asl_cache/feature_cache_shard_2"],
+  "splits_dir": "D:/asl_citizen/splits",
+  "output_dir": "D:/nsyss50_results",
+  "cohort": "local_pc_original_recipe_v1",
+  "gpu_id": 0,
+  "inference_repeats": 3,
+  "inference_min_seconds": 60
+}

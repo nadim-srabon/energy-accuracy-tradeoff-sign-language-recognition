@@ -1,0 +1,33 @@
+# environments and caches
+.venv*/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.claude/
+
+# large or non-redistributable data
+*.pt
+*.pth
+*.npz
+*.mp4
+data/
+cache/
+
+# local run outputs and logs (curated copies live under results/)
+logs*/
+logs_ext/
+logs_nw4/
+analysis_ext_*/
+analysis_local_*/
+results_ext_*.zip
+preflight_report.json
+config.diag.json
+**/quarantined_seedflat_*/
+**/*.incomplete_*/
+
+# LaTeX build files
+*.aux
+*.log
+*.bbl
+*.blg
+*.out

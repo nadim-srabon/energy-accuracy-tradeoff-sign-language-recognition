@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "Quantifying the Carbon Cost of Accuracy: An Energy-Aware Comparison of CNN, Transformer, and Hybrid Architectures for Word-Level Sign Language Recognition"
+authors:
+  - family-names: Srabon
+    given-names: Nadim
+    affiliation: East West University
+  - family-names: Lamia
+    given-names: Tonima Islam
+    affiliation: East West University
+  - family-names: Mozumder
+    given-names: Redoanul Alam
+    affiliation: East West University
+  - family-names: Rasel
+    given-names: Ahmed Abdal Shafi
+    affiliation: East West University
+license: MIT
+repository-code: "https://github.com/nadim-srabon/energy-accuracy-tradeoff-sign-language-recognition"
+preferred-citation:
+  type: conference-paper
+  title: "Quantifying the Carbon Cost of Accuracy: An Energy-Aware Comparison of CNN, Transformer, and Hybrid Architectures for Word-Level Sign Language Recognition"
+  authors:
+    - family-names: Srabon
+      given-names: Nadim
+    - family-names: Lamia
+      given-names: Tonima Islam
+    - family-names: Mozumder
+      given-names: Redoanul Alam
+    - family-names: Rasel
+      given-names: Ahmed Abdal Shafi
+  collection-title: "13th International Conference on Next Generation Computing, Communication, Systems and Security (NSysS 2026)"
+  conference:
+    name: "NSysS 2026"
+    city: "Cox's Bazar"
+    country: BD
+  publisher:
+    name: ACM
+  year: 2026
+  doi: "10.1145/3872188.3872195"

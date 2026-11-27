@@ -1,0 +1,43 @@
+{
+  "model": "resnet",
+  "variant": "baseline",
+  "seed": 999,
+  "cohort": "local_pc_a4000_numworkers4_v1",
+  "manifest_sha256": "62334c358efc8e8c94b09b8f12189d12ce307c3eee2c2f73e940c4ddedcfaa0c",
+  "mode": "train",
+  "lr": 0.0001,
+  "test_clips": 1436,
+  "test_top1_pct": 43.38440111420613,
+  "test_top5_pct": 71.93593314763231,
+  "train_kwh": 0.1146110430477972,
+  "inference_windows": [
+    {
+      "repeat": 0,
+      "clips": 2872,
+      "seconds": 103.06767389999004,
+      "kwh": 0.003964463672081502,
+      "kwh_per_clip": 1.3803842869364562e-06,
+      "batch_amortized_ms_per_clip": 35.88707308495475,
+      "peak_allocated_gb": 1.594285488128662
+    },
+    {
+      "repeat": 1,
+      "clips": 2872,
+      "seconds": 102.80676280002808,
+      "kwh": 0.004063251282358974,
+      "kwh_per_clip": 1.4147810871723448e-06,
+      "batch_amortized_ms_per_clip": 35.796226601681084,
+      "peak_allocated_gb": 1.594285488128662
+    },
+    {
+      "repeat": 2,
+      "clips": 2872,
+      "seconds": 103.60873740003444,
+      "kwh": 0.004021363539447926,
+      "kwh_per_clip": 1.4001962184707263e-06,
+      "batch_amortized_ms_per_clip": 36.07546566853567,
+      "peak_allocated_gb": 1.594285488128662
+    }
+  ],
+  "inference_kwh_per_clip": 1.3984538641931758e-06
+}

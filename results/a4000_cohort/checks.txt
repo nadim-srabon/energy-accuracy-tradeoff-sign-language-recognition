@@ -1,0 +1,11 @@
+hybrid       baseline  n=5 seeds=[7, 42, 123, 999, 2024]
+hybrid       fixed     n=5 seeds=[7, 42, 123, 999, 2024]
+mobilenet    baseline  n=5 seeds=[7, 42, 123, 999, 2024]
+mobilevit    baseline  n=5 seeds=[7, 42, 123, 999, 2024]
+r2plus1d     baseline  n=5 seeds=[7, 42, 123, 999, 2024]
+resnet       baseline  n=5 seeds=[7, 42, 123, 999, 2024]
+swin3d       baseline  n=5 seeds=[7, 42, 123, 999, 2024]
+timesformer  baseline  n=5 seeds=[7, 42, 123, 999, 2024]
+vivit        baseline  n=5 seeds=[7, 42, 123, 999, 2024]
+
+Tracked energy (training + inference windows), all runs: 12.285 kWh; extension campaign: 7.526 kWh

@@ -1,0 +1,6 @@
+,signer_column_found,signer_id_source,n_signers_train,n_signers_val,n_signers_test,n_signers_overlap_train_val,n_signers_overlap_train_test,n_signers_overlap_val_test,is_signer_disjoint
+mobilenet_v3_small_cnn_light,Participant ID,csv_column,35,5,11,0,0,0,True
+resnet50_cnn_heavy,Participant ID,csv_column,35,5,11,0,0,0,True
+vivit_lite_transformer_light,Participant ID,csv_column,35,5,11,0,0,0,True
+timesformer_base_transformer_heavy,Participant ID,csv_column,35,5,11,0,0,0,True
+tinymslr_hybrid_no_kd,Participant ID,csv_column,35,5,11,0,0,0,True

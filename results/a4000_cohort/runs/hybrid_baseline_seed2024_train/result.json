@@ -1,0 +1,79 @@
+{
+  "model": "hybrid",
+  "variant": "baseline",
+  "seed": 2024,
+  "cohort": "local_pc_a4000_rebuiltcache_v1",
+  "manifest_sha256": "62334c358efc8e8c94b09b8f12189d12ce307c3eee2c2f73e940c4ddedcfaa0c",
+  "mode": "train",
+  "lr": 0.0001,
+  "test_clips": 1436,
+  "test_top1_pct": 29.45682451253482,
+  "test_top5_pct": 59.1225626740947,
+  "train_kwh": 0.2626232406418234,
+  "inference_windows": [
+    {
+      "repeat": 0,
+      "clips": 1436,
+      "seconds": 95.89497749996372,
+      "kwh": 0.005784570108092404,
+      "kwh_per_clip": 4.028252164409752e-06,
+      "batch_amortized_ms_per_clip": 66.77923224231456,
+      "peak_allocated_gb": 2.421971321105957
+    },
+    {
+      "repeat": 1,
+      "clips": 1436,
+      "seconds": 96.03583830001298,
+      "kwh": 0.005869327906760985,
+      "kwh_per_clip": 4.0872757010870365e-06,
+      "batch_amortized_ms_per_clip": 66.87732472145751,
+      "peak_allocated_gb": 2.421971321105957
+    },
+    {
+      "repeat": 2,
+      "clips": 1436,
+      "seconds": 96.1029903999879,
+      "kwh": 0.005823806221169732,
+      "kwh_per_clip": 4.0555753629315685e-06,
+      "batch_amortized_ms_per_clip": 66.9240880222757,
+      "peak_allocated_gb": 2.421971321105957
+    }
+  ],
+  "inference_kwh_per_clip": 4.057034409476119e-06,
+  "gate_mean": [
+    0.5954280953143164,
+    0.4045719035750069
+  ],
+  "gate_quantiles": [
+    [
+      0.00014716391160618514,
+      1.7539667851451668e-06
+    ],
+    [
+      0.07043841108679771,
+      0.00295347161591053
+    ],
+    [
+      0.8783471584320068,
+      0.12165281549096107
+    ],
+    [
+      0.9970465302467346,
+      0.9295616298913956
+    ],
+    [
+      0.9999982118606567,
+      0.9998527765274048
+    ]
+  ],
+  "gate_mean_entropy_nats": 0.18306874782654886,
+  "branch_feature_l2_norm_mean": [
+    42.73760054569723,
+    30.90396011240967
+  ],
+  "checkpoint_diagnostic_top1_pct": {
+    "aux_cnn": 32.03342618384401,
+    "aux_swin": 25.069637883008355,
+    "fixed_fusion": 25.766016713091922
+  }
+}

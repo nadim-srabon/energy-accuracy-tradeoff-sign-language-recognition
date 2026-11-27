@@ -1,0 +1,6 @@
+1. https://www.kaggle.com/code/tonimaislamlamia/green-computing-over-slr-model-resnet50
+2. https://www.kaggle.com/code/tonimaislamlamia/green-computing-over-slr-model-6-aggregation
+3. https://www.kaggle.com/code/nadimsrabon6/green-computing-over-slr-model-timesformer
+4. https://www.kaggle.com/code/nadimsrabon6/green-computing-over-slr-model-mobilenetv3
+5. https://www.kaggle.com/code/redoanmozumder/green-computing-over-slr-model-small-vivit
+6. https://www.kaggle.com/code/nadimsrabon6/green-computing-over-slr-model-tinymslr

@@ -1,0 +1,9 @@
+{
+  "cache_dirs": ["D:/asl_cache_rebuilt/cache"],
+  "splits_dir": "D:/asl_citizen_download/meta",
+  "output_dir": "D:/nsyss50_results",
+  "cohort": "local_pc_a4000_rebuiltcache_v1",
+  "gpu_id": 0,
+  "inference_repeats": 3,
+  "inference_min_seconds": 60
+}

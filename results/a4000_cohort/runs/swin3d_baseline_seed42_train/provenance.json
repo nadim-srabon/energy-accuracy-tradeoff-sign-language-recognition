@@ -1,0 +1,143 @@
+{
+  "model": "swin3d",
+  "variant": "baseline",
+  "seed": 42,
+  "mode": "train",
+  "cohort": "local_pc_a4000_rebuiltcache_v1",
+  "manifest_sha256": "62334c358efc8e8c94b09b8f12189d12ce307c3eee2c2f73e940c4ddedcfaa0c",
+  "notebook_sha256": "b83daaa8deffc2146fc8393cab2f3bbb4b63f16aa269f090d439ab5f9b7a7532",
+  "config": {
+    "WORK_DIR": "D:\\nsyss50_results_ext\\local_pc_a4000_rebuiltcache_v1\\swin3d_baseline_seed42_train",
+    "SPLITS_DIR": "D:\\asl_citizen_download\\meta",
+    "MODEL_TAG": "swin3d_tiny_transformer_video_k400",
+    "CHECKPOINT_DIR": "D:\\nsyss50_results_ext\\local_pc_a4000_rebuiltcache_v1\\swin3d_baseline_seed42_train",
+    "OUTPUT_DIR": "D:\\nsyss50_results_ext\\local_pc_a4000_rebuiltcache_v1\\swin3d_baseline_seed42_train",
+    "TOP_K_CLASSES": 100,
+    "FRAME_COUNT": 16,
+    "APPEARANCE_STREAM_IDX": 0,
+    "IMAGE_SIZE": 224,
+    "SPATIAL_BACKBONE": "vit_tiny_patch16_224",
+    "SPATIAL_UNFROZEN_BLOCKS": 2,
+    "TEMPORAL_D_MODEL": 192,
+    "TEMPORAL_N_HEADS": 3,
+    "TEMPORAL_N_LAYERS": 2,
+    "TEMPORAL_FFN_DIM": 384,
+    "TEMPORAL_DROPOUT": 0.3,
+    "BATCH_SIZE": 8,
+    "NUM_WORKERS": 0,
+    "LR": 0.0001,
+    "WEIGHT_DECAY": 0.0003,
+    "GRAD_CLIP_NORM": 0.5,
+    "LABEL_SMOOTHING": 0.1,
+    "EPOCHS_FULL": 30,
+    "MIN_EPOCHS_BEFORE_STOPPING": 15,
+    "EARLY_STOPPING_PATIENCE": 6,
+    "ACCURACY_GATE_THRESHOLD": 0.6,
+    "ACCURACY_GATE_THRESHOLDS_FOR_SENSITIVITY": [
+      0.5,
+      0.6,
+      0.7
+    ],
+    "SEED": 42,
+    "SEEDS": [
+      42
+    ],
+    "DEVICE": "cuda:0",
+    "GRID_CARBON_INTENSITY_KG_PER_KWH": 0.41272,
+    "EXPECTED_INFERENCE_VOLUME": 100000,
+    "DEPLOYMENT_VOLUME_SENSITIVITY": [
+      10000,
+      100000,
+      1000000
+    ],
+    "INFERENCE_PROFILING_PASSES": 3
+  },
+  "settings": {
+    "cache_dirs": [
+      "D:/asl_cache_rebuilt/cache"
+    ],
+    "splits_dir": "D:/asl_citizen_download/meta",
+    "output_dir": "D:/nsyss50_results_ext",
+    "cohort": "local_pc_a4000_rebuiltcache_v1",
+    "gpu_id": 0,
+    "inference_repeats": 3,
+    "inference_min_seconds": 60,
+    "expected_manifest_sha256": "62334c358efc8e8c94b09b8f12189d12ce307c3eee2c2f73e940c4ddedcfaa0c",
+    "reference_results_dir": "D:/nsyss50_results/local_pc_a4000_rebuiltcache_v1"
+  },
+  "hardware": {
+    "torch_version": "2.10.0+cu128",
+    "cuda_version_torch_built_with": "12.8",
+    "cudnn_version": 91002,
+    "python_version": "3.13.17",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "cpu_count_logical": 20,
+    "gpu_available": true,
+    "gpu_name": "NVIDIA RTX A4000",
+    "gpu_count": 1,
+    "gpu_total_memory_gb": 15.99,
+    "gpu_capability": "8.6",
+    "ram_total_gb": 31.71
+  },
+  "trainable_parameters": 14375860,
+  "total_parameters": 27927370,
+  "trainable_names": [
+    "backbone.features.6.0.norm1.weight",
+    "backbone.features.6.0.norm1.bias",
+    "backbone.features.6.0.attn.relative_position_bias_table",
+    "backbone.features.6.0.attn.qkv.weight",
+    "backbone.features.6.0.attn.qkv.bias",
+    "backbone.features.6.0.attn.proj.weight",
+    "backbone.features.6.0.attn.proj.bias",
+    "backbone.features.6.0.norm2.weight",
+    "backbone.features.6.0.norm2.bias",
+    "backbone.features.6.0.mlp.0.weight",
+    "backbone.features.6.0.mlp.0.bias",
+    "backbone.features.6.0.mlp.3.weight",
+    "backbone.features.6.0.mlp.3.bias",
+    "backbone.features.6.1.norm1.weight",
+    "backbone.features.6.1.norm1.bias",
+    "backbone.features.6.1.attn.relative_position_bias_table",
+    "backbone.features.6.1.attn.qkv.weight",
+    "backbone.features.6.1.attn.qkv.bias",
+    "backbone.features.6.1.attn.proj.weight",
+    "backbone.features.6.1.attn.proj.bias",
+    "backbone.features.6.1.norm2.weight",
+    "backbone.features.6.1.norm2.bias",
+    "backbone.features.6.1.mlp.0.weight",
+    "backbone.features.6.1.mlp.0.bias",
+    "backbone.features.6.1.mlp.3.weight",
+    "backbone.features.6.1.mlp.3.bias",
+    "backbone.norm.weight",
+    "backbone.norm.bias",
+    "head.weight",
+    "head.bias"
+  ],
+  "split_clip_counts": {
+    "train": 1727,
+    "val": 381,
+    "test": 1436
+  },
+  "runner": "gpu_package_ext/run_ext.py",
+  "runner_sha256": "eb9a5baf15b02ac2a16b5a7fd1897ff2c1ad2158fdb5b4b4f261d4c250cef6b5",
+  "extension_model": {
+    "base": "vivit",
+    "arch": "swin3d_t.py",
+    "family": "Transformer",
+    "tag": "swin3d_tiny_transformer_video_k400",
+    "base_notebook": "green-computing-over-slr-model-small-vivit_v2.ipynb",
+    "arch_sha256": "8b0fe02f211c7d8421971a88c792c926cb54293679d9a2719d944277e257dcfc",
+    "input_normalization": {
+      "mean": [
+        0.485,
+        0.456,
+        0.406
+      ],
+      "std": [
+        0.229,
+        0.224,
+        0.225
+      ]
+    }
+  }
+}

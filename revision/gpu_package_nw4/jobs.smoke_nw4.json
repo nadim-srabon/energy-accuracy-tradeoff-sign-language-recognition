@@ -1,0 +1,4 @@
+[
+  ["--model", "resnet", "--mode", "smoke", "--seed", "42"],
+  ["--model", "timesformer", "--mode", "smoke", "--seed", "42"]
+]

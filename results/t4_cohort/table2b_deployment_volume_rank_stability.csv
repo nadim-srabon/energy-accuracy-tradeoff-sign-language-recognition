@@ -1,0 +1,6 @@
+Model,10000,100000,1000000
+MobileNetV3-Small,2.0,3.0,4.0
+ResNet-50,1.0,1.0,1.0
+ViViT-Lite,3.0,2.0,2.0
+TimeSformer,4.0,4.0,3.0
+TinyMSLR-hybrid,5.0,5.0,5.0

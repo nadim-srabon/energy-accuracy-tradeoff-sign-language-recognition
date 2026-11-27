@@ -1,0 +1,43 @@
+{
+  "model": "mobilevit",
+  "variant": "baseline",
+  "seed": 2024,
+  "cohort": "local_pc_a4000_rebuiltcache_v1",
+  "manifest_sha256": "62334c358efc8e8c94b09b8f12189d12ce307c3eee2c2f73e940c4ddedcfaa0c",
+  "mode": "train",
+  "lr": 0.0001,
+  "test_clips": 1436,
+  "test_top1_pct": 9.958217270194986,
+  "test_top5_pct": 29.805013927576603,
+  "train_kwh": 0.37075436362514974,
+  "inference_windows": [
+    {
+      "repeat": 0,
+      "clips": 2872,
+      "seconds": 71.0046055999992,
+      "kwh": 0.004166084144906319,
+      "kwh_per_clip": 1.450586401429777e-06,
+      "batch_amortized_ms_per_clip": 24.72305208913621,
+      "peak_allocated_gb": 1.95405912399292
+    },
+    {
+      "repeat": 1,
+      "clips": 2872,
+      "seconds": 70.73060549999354,
+      "kwh": 0.004155532175089359,
+      "kwh_per_clip": 1.4469123172316709e-06,
+      "batch_amortized_ms_per_clip": 24.627648154593853,
+      "peak_allocated_gb": 1.95405912399292
+    },
+    {
+      "repeat": 2,
+      "clips": 2872,
+      "seconds": 70.67379670002265,
+      "kwh": 0.004141458845265475,
+      "kwh_per_clip": 1.4420121327526026e-06,
+      "batch_amortized_ms_per_clip": 24.60786793176276,
+      "peak_allocated_gb": 1.95405912399292
+    }
+  ],
+  "inference_kwh_per_clip": 1.4465036171380167e-06
+}

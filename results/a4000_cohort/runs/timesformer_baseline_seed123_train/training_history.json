@@ -1,0 +1,222 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 4.172688295674878,
+    "train_top1": 0.13662790697674418,
+    "train_top5": 0.2930232558139535,
+    "val_loss": 3.7014440397421517,
+    "val_top1": 0.18125000006208816,
+    "val_top5": 0.474479166790843,
+    "epoch_energy_kwh": 0.01050045527282731,
+    "epoch_co2_kg_codecarbon_estimate": 0.0072601302806408015
+  },
+  {
+    "epoch": 2,
+    "train_loss": 2.77354752851087,
+    "train_top1": 0.5110465116279069,
+    "train_top5": 0.7534883720930232,
+    "val_loss": 3.0716410974661508,
+    "val_top1": 0.3390625001241763,
+    "val_top5": 0.6895833338300387,
+    "epoch_energy_kwh": 0.010668760689990928,
+    "epoch_co2_kg_codecarbon_estimate": 0.0073764984974273185
+  },
+  {
+    "epoch": 3,
+    "train_loss": 1.8570480790249138,
+    "train_top1": 0.7744186046511627,
+    "train_top5": 0.9255813953488372,
+    "val_loss": 2.6836751426259675,
+    "val_top1": 0.4395833338300387,
+    "val_top5": 0.8031250002483526,
+    "epoch_energy_kwh": 0.010646686741898701,
+    "epoch_co2_kg_codecarbon_estimate": 0.007361236326902923
+  },
+  {
+    "epoch": 4,
+    "train_loss": 1.360691151785296,
+    "train_top1": 0.8947674418604651,
+    "train_top5": 0.9715116279069768,
+    "val_loss": 2.5312924087047577,
+    "val_top1": 0.48906250049670535,
+    "val_top5": 0.8109375002483526,
+    "epoch_energy_kwh": 0.010644483737604016,
+    "epoch_co2_kg_codecarbon_estimate": 0.0073597131455005295
+  },
+  {
+    "epoch": 5,
+    "train_loss": 1.0991109251976012,
+    "train_top1": 0.95,
+    "train_top5": 0.9901162790697674,
+    "val_loss": 2.4233373080690703,
+    "val_top1": 0.546354167163372,
+    "val_top5": 0.831770833581686,
+    "epoch_energy_kwh": 0.010626760710627653,
+    "epoch_co2_kg_codecarbon_estimate": 0.007347459249695776
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.966101592917775,
+    "train_top1": 0.9848837209302326,
+    "train_top5": 0.9976744186046511,
+    "val_loss": 2.3935856645305953,
+    "val_top1": 0.5609375002483526,
+    "val_top5": 0.8421875002483526,
+    "epoch_energy_kwh": 0.010672266809217845,
+    "epoch_co2_kg_codecarbon_estimate": 0.00737892266682812
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.9292155376700468,
+    "train_top1": 0.9901162790697674,
+    "train_top5": 0.9994186046511628,
+    "val_loss": 2.40644999841849,
+    "val_top1": 0.561979167163372,
+    "val_top5": 0.8369791669150194,
+    "epoch_energy_kwh": 0.010667059511757872,
+    "epoch_co2_kg_codecarbon_estimate": 0.007375322284084023
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.8883201288622479,
+    "train_top1": 0.9994186046511628,
+    "train_top5": 1.0,
+    "val_loss": 2.420537124077479,
+    "val_top1": 0.5708333334575096,
+    "val_top5": 0.8343750002483526,
+    "epoch_energy_kwh": 0.010667540530270303,
+    "epoch_co2_kg_codecarbon_estimate": 0.00737565486557472
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.8834337861038918,
+    "train_top1": 0.997093023255814,
+    "train_top5": 0.9982558139534884,
+    "val_loss": 2.3970040256778398,
+    "val_top1": 0.585416667163372,
+    "val_top5": 0.8447916669150194,
+    "epoch_energy_kwh": 0.010666241896571614,
+    "epoch_co2_kg_codecarbon_estimate": 0.007374756975950476
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.8634026264035425,
+    "train_top1": 1.0,
+    "train_top5": 1.0,
+    "val_loss": 2.428817443549633,
+    "val_top1": 0.569791667163372,
+    "val_top5": 0.8213541669150194,
+    "epoch_energy_kwh": 0.010664065019915684,
+    "epoch_co2_kg_codecarbon_estimate": 4.1988210010125885e-05
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.8547776169555131,
+    "train_top1": 1.0,
+    "train_top5": 1.0,
+    "val_loss": 2.409512567023436,
+    "val_top1": 0.5958333338300387,
+    "val_top5": 0.847395833581686,
+    "epoch_energy_kwh": 0.010708601570076913,
+    "epoch_co2_kg_codecarbon_estimate": 0.007404044920168449
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.8488172722417254,
+    "train_top1": 1.0,
+    "train_top5": 1.0,
+    "val_loss": 2.4379304150740304,
+    "val_top1": 0.599479166790843,
+    "val_top5": 0.8421875002483526,
+    "epoch_energy_kwh": 0.010656723623365293,
+    "epoch_co2_kg_codecarbon_estimate": 4.195930432551596e-05
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.8432926080947698,
+    "train_top1": 0.9994186046511628,
+    "train_top5": 1.0,
+    "val_loss": 2.4318431988358498,
+    "val_top1": 0.605208333581686,
+    "val_top5": 0.8656250002483526,
+    "epoch_energy_kwh": 0.010653665972925455,
+    "epoch_co2_kg_codecarbon_estimate": 0.0073660618440063615
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.8349213273026223,
+    "train_top1": 1.0,
+    "train_top5": 1.0,
+    "val_loss": 2.4428458462158837,
+    "val_top1": 0.632291667163372,
+    "val_top5": 0.855208333581686,
+    "epoch_energy_kwh": 0.010655378390844154,
+    "epoch_co2_kg_codecarbon_estimate": 0.007367245828591947
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.8303342001382694,
+    "train_top1": 1.0,
+    "train_top5": 1.0,
+    "val_loss": 2.4512781500816345,
+    "val_top1": 0.5958333338300387,
+    "val_top5": 0.8578125002483526,
+    "epoch_energy_kwh": 0.010709635762649683,
+    "epoch_co2_kg_codecarbon_estimate": 0.007404759972289381
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.8244410872459411,
+    "train_top1": 1.0,
+    "train_top5": 1.0,
+    "val_loss": 2.469782871504625,
+    "val_top1": 0.6062500004967054,
+    "val_top5": 0.855208333581686,
+    "epoch_energy_kwh": 0.011238293122246381,
+    "epoch_co2_kg_codecarbon_estimate": 0.007770279485945493
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.8202266061028769,
+    "train_top1": 1.0,
+    "train_top5": 1.0,
+    "val_loss": 2.4349119141697884,
+    "val_top1": 0.616666667163372,
+    "val_top5": 0.863020833581686,
+    "epoch_energy_kwh": 0.011174239661968642,
+    "epoch_co2_kg_codecarbon_estimate": 0.007725992218921401
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.8177588537681935,
+    "train_top1": 1.0,
+    "train_top5": 1.0,
+    "val_loss": 2.479399234056473,
+    "val_top1": 0.615104166790843,
+    "val_top5": 0.847395833581686,
+    "epoch_energy_kwh": 0.011141965860901673,
+    "epoch_co2_kg_codecarbon_estimate": 0.007703677757851886
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.8133705324904863,
+    "train_top1": 1.0,
+    "train_top5": 1.0,
+    "val_loss": 2.451055258512497,
+    "val_top1": 0.6218750004967054,
+    "val_top5": 0.855208333581686,
+    "epoch_energy_kwh": 0.010992050060727942,
+    "epoch_co2_kg_codecarbon_estimate": 0.007600024324537968
+  },
+  {
+    "epoch": 20,
+    "train_loss": 0.81076165936714,
+    "train_top1": 1.0,
+    "train_top5": 1.0,
+    "val_loss": 2.472825604180495,
+    "val_top1": 0.613020833581686,
+    "val_top5": 0.8526041669150194,
+    "epoch_energy_kwh": 0.010642772582852815,
+    "epoch_co2_kg_codecarbon_estimate": 4.190437412602789e-05
+  }
+]

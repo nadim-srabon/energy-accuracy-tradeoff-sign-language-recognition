@@ -1,0 +1,5 @@
+[
+  ["--model", "hybrid", "--variant", "fixed", "--mode", "train", "--seed", "42"],
+  ["--model", "hybrid", "--variant", "fixed", "--mode", "train", "--seed", "123"],
+  ["--model", "hybrid", "--variant", "fixed", "--mode", "train", "--seed", "2024"]
+]

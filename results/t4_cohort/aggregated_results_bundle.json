@@ -1,0 +1,284 @@
+{
+  "table1_multiseed_comparison": [
+    {
+      "Model": "MobileNetV3-Small",
+      "model_tag": "mobilenet_v3_small_cnn_light",
+      "Family": "CNN (light)",
+      "Params (M)": 0.98,
+      "Params trainable (M)": 0.7,
+      "GFLOPs": 1.94776704,
+      "GFLOPs is lower bound": false,
+      "Top-1 mean (%)": 5.7,
+      "Top-1 std (pp)": 1.1,
+      "Top-5 mean (%)": 22.71,
+      "Top-5 std (pp)": 1.46,
+      "Energy mean (kWh)": 0.023417008582414356,
+      "Energy std (kWh)": 0.0036636914114037957,
+      "CO2e mean (g)": 9.664667782134051,
+      "CO2e std (g)": 1.5120787193145742,
+      "eta_train mean": 0.6067510053557738,
+      "eta_train std": 0.1947978324213441,
+      "Wall-clock mean (min)": 18.59453215069241,
+      "Wall-clock std (min)": 2.835790291755204,
+      "n_seeds": 3,
+      "seeds": [
+        42,
+        123,
+        2024
+      ]
+    },
+    {
+      "Model": "ResNet-50",
+      "model_tag": "resnet50_cnn_heavy",
+      "Family": "CNN (heavy)",
+      "Params (M)": 23.71,
+      "Params trainable (M)": 15.17,
+      "GFLOPs": 132.214636544,
+      "GFLOPs is lower bound": false,
+      "Top-1 mean (%)": 52.12,
+      "Top-1 std (pp)": 0.3,
+      "Top-5 mean (%)": 80.27,
+      "Top-5 std (pp)": 0.5,
+      "Energy mean (kWh)": 0.09365511917273758,
+      "Energy std (kWh)": 0.00016047981184527812,
+      "CO2e mean (g)": 38.65334078497225,
+      "CO2e std (g)": 0.06623322794478338,
+      "eta_train mean": 1.3483381409762083,
+      "eta_train std": 0.009925700380916171,
+      "Wall-clock mean (min)": 58.28170865111881,
+      "Wall-clock std (min)": 0.04117512154518835,
+      "n_seeds": 3,
+      "seeds": [
+        42,
+        123,
+        2024
+      ]
+    },
+    {
+      "Model": "ViViT-Lite",
+      "model_tag": "vivit_lite_transformer_light",
+      "Family": "Transformer (light)",
+      "Params (M)": 6.14,
+      "Params trainable (M)": 1.5,
+      "GFLOPs": 34.398672384,
+      "GFLOPs is lower bound": true,
+      "Top-1 mean (%)": 9.39,
+      "Top-1 std (pp)": 1.9,
+      "Top-5 mean (%)": 29.07,
+      "Top-5 std (pp)": 5.17,
+      "Energy mean (kWh)": 0.029087804158045575,
+      "Energy std (kWh)": 0.0049202316743459555,
+      "CO2e mean (g)": 12.005118532108568,
+      "CO2e std (g)": 2.030678016636063,
+      "eta_train mean": 0.7804481924184701,
+      "eta_train std": 0.048531385769761515,
+      "Wall-clock mean (min)": 18.595938257376353,
+      "Wall-clock std (min)": 3.1389679695261354,
+      "n_seeds": 3,
+      "seeds": [
+        42,
+        123,
+        2024
+      ]
+    },
+    {
+      "Model": "TimeSformer",
+      "model_tag": "timesformer_base_transformer_heavy",
+      "Family": "Transformer (heavy)",
+      "Params (M)": 121.34,
+      "Params trainable (M)": 20.16,
+      "GFLOPs": 380.10955776,
+      "GFLOPs is lower bound": true,
+      "Top-1 mean (%)": 59.9,
+      "Top-1 std (pp)": 1.37,
+      "Top-5 mean (%)": 84.72,
+      "Top-5 std (pp)": 0.25,
+      "Energy mean (kWh)": 0.18511511420271243,
+      "Energy std (kWh)": 0.050496985992381206,
+      "CO2e mean (g)": 76.40070993374347,
+      "CO2e std (g)": 20.841116058775565,
+      "eta_train mean": 0.8229473382277478,
+      "eta_train std": 0.21515765490151972,
+      "Wall-clock mean (min)": 115.25259082184898,
+      "Wall-clock std (min)": 31.428128726767618,
+      "n_seeds": 3,
+      "seeds": [
+        42,
+        123,
+        2024
+      ]
+    },
+    {
+      "Model": "TinyMSLR-hybrid",
+      "model_tag": "tinymslr_hybrid_no_kd",
+      "Family": "Hybrid",
+      "Params (M)": 60.46,
+      "Params trainable (M)": 33.6,
+      "GFLOPs": 238.236025856,
+      "GFLOPs is lower bound": true,
+      "Top-1 mean (%)": 34.68,
+      "Top-1 std (pp)": 2.85,
+      "Top-5 mean (%)": 66.74,
+      "Top-5 std (pp)": 2.25,
+      "Energy mean (kWh)": 0.2642592417450487,
+      "Energy std (kWh)": 0.02500917824739054,
+      "CO2e mean (g)": 109.0650742530165,
+      "CO2e std (g)": 10.321788046263022,
+      "eta_train mean": 0.3188209756202167,
+      "eta_train std": 0.022563936168665553,
+      "Wall-clock mean (min)": 165.66571932103898,
+      "Wall-clock std (min)": 15.607578485298266,
+      "n_seeds": 3,
+      "seeds": [
+        42,
+        123,
+        2024
+      ]
+    }
+  ],
+  "table2_deployment_volume_sensitivity": [
+    {
+      "Model": "MobileNetV3-Small",
+      "10000": 6794.125657766032,
+      "100000": 26362.398695364293,
+      "1000000": 37026.75259385138
+    },
+    {
+      "Model": "ResNet-50",
+      "10000": 11902.645695888155,
+      "100000": 56122.354443129516,
+      "1000000": 89297.35839682995
+    },
+    {
+      "Model": "ViViT-Lite",
+      "10000": 6762.9285038860535,
+      "100000": 27430.51981941927,
+      "1000000": 39502.54551211237
+    },
+    {
+      "Model": "TimeSformer",
+      "10000": 6616.218629621749,
+      "100000": 26132.46229202617,
+      "1000000": 37066.04992672176
+    },
+    {
+      "Model": "TinyMSLR-hybrid",
+      "10000": 2842.306466440126,
+      "100000": 11734.703344178062,
+      "1000000": 17077.56414744286
+    }
+  ],
+  "table3_accuracy_threshold_sensitivity": [
+    {
+      "Model": "MobileNetV3-Small",
+      "Top-1 primary seed (%)": 6.6,
+      "Top-1 mean across seeds (%)": 5.7,
+      "Top-1 std (pp)": 1.1,
+      "clears_50pct_threshold": false,
+      "clears_60pct_threshold": false,
+      "clears_70pct_threshold": false,
+      "mean_clears_50pct": false,
+      "mean_clears_60pct": false,
+      "mean_clears_70pct": false
+    },
+    {
+      "Model": "ResNet-50",
+      "Top-1 primary seed (%)": 52.45,
+      "Top-1 mean across seeds (%)": 52.12,
+      "Top-1 std (pp)": 0.3,
+      "clears_50pct_threshold": true,
+      "clears_60pct_threshold": false,
+      "clears_70pct_threshold": false,
+      "mean_clears_50pct": true,
+      "mean_clears_60pct": false,
+      "mean_clears_70pct": false
+    },
+    {
+      "Model": "ViViT-Lite",
+      "Top-1 primary seed (%)": 11.57,
+      "Top-1 mean across seeds (%)": 9.39,
+      "Top-1 std (pp)": 1.9,
+      "clears_50pct_threshold": false,
+      "clears_60pct_threshold": false,
+      "clears_70pct_threshold": false,
+      "mean_clears_50pct": false,
+      "mean_clears_60pct": false,
+      "mean_clears_70pct": false
+    },
+    {
+      "Model": "TimeSformer",
+      "Top-1 primary seed (%)": 60.89,
+      "Top-1 mean across seeds (%)": 59.9,
+      "Top-1 std (pp)": 1.37,
+      "clears_50pct_threshold": true,
+      "clears_60pct_threshold": true,
+      "clears_70pct_threshold": false,
+      "mean_clears_50pct": true,
+      "mean_clears_60pct": false,
+      "mean_clears_70pct": false
+    },
+    {
+      "Model": "TinyMSLR-hybrid",
+      "Top-1 primary seed (%)": 32.86,
+      "Top-1 mean across seeds (%)": 34.68,
+      "Top-1 std (pp)": 2.85,
+      "clears_50pct_threshold": false,
+      "clears_60pct_threshold": false,
+      "clears_70pct_threshold": false,
+      "mean_clears_50pct": false,
+      "mean_clears_60pct": false,
+      "mean_clears_70pct": false
+    }
+  ],
+  "table4_memory_latency": [
+    {
+      "Model": "MobileNetV3-Small",
+      "Peak train GPU mem (GB)": 0.363,
+      "Peak inference GPU mem (GB)": 0.349,
+      "Latency per clip (ms)": 21.026756849755966
+    },
+    {
+      "Model": "ResNet-50",
+      "Peak train GPU mem (GB)": 1.603,
+      "Peak inference GPU mem (GB)": 1.602,
+      "Latency per clip (ms)": 48.02373985830198
+    },
+    {
+      "Model": "ViViT-Lite",
+      "Peak train GPU mem (GB)": 0.82,
+      "Peak inference GPU mem (GB)": 0.354,
+      "Latency per clip (ms)": 24.17516855023729
+    },
+    {
+      "Model": "TimeSformer",
+      "Peak train GPU mem (GB)": 2.914,
+      "Peak inference GPU mem (GB)": 1.385,
+      "Latency per clip (ms)": 139.96121312022518
+    },
+    {
+      "Model": "TinyMSLR-hybrid",
+      "Peak train GPU mem (GB)": 3.084,
+      "Peak inference GPU mem (GB)": 2.432,
+      "Latency per clip (ms)": 164.72633939165016
+    }
+  ],
+  "table5_within_family_marginal_cost": [
+    {
+      "Family": "CNN (MobileNetV3-Small -> ResNet-50)",
+      "Delta accuracy (pts)": 46.419999999999995,
+      "Delta CO2e (g)": 28.988673002838198,
+      "Marginal cost (g CO2e/point)": 0.6244867083765231
+    },
+    {
+      "Family": "Transformer (ViViT-Lite -> TimeSformer)",
+      "Delta accuracy (pts)": 50.51,
+      "Delta CO2e (g)": 64.3955914016349,
+      "Marginal cost (g CO2e/point)": 1.2749077687910295
+    }
+  ],
+  "signer_independence_identical_across_models": true,
+  "hardware_software_identical_across_models": true,
+  "cnn_family_marginal_co2_per_point": 0.6244867083765231,
+  "transformer_family_marginal_co2_per_point": 1.2749077687910295,
+  "transformer_to_cnn_marginal_ratio": 2.0415290696985444
+}

@@ -1,0 +1,11 @@
+[
+  ["--model", "mobilenet", "--mode", "smoke"],
+  ["--model", "resnet", "--mode", "smoke"],
+  ["--model", "vivit", "--mode", "smoke"],
+  ["--model", "timesformer", "--mode", "smoke"],
+  ["--model", "hybrid", "--mode", "smoke"],
+  ["--model", "hybrid", "--variant", "fixed", "--mode", "smoke"],
+  ["--model", "r2plus1d", "--mode", "smoke"],
+  ["--model", "swin3d", "--mode", "smoke"],
+  ["--model", "mobilevit", "--mode", "smoke"]
+]

@@ -1,0 +1,68 @@
+Excerpts (epoch lines and energy totals) from the queue logs of the first extension session
+(logs_ext/newseeds_20261122_162225, 22-23 Nov 2026). These runs are NOT in any table.
+
+=== 03.log: timesformer, baseline, seed 7 (completed; discarded and rerun)
+Epoch 1/30 | val_loss=3.5815 val_top1=0.214 | epoch_energy=0.01048 kWh
+Epoch 2/30 | val_loss=2.9249 val_top1=0.409 | epoch_energy=0.01062 kWh
+Epoch 3/30 | val_loss=2.6090 val_top1=0.458 | epoch_energy=0.01060 kWh
+Epoch 4/30 | val_loss=2.3523 val_top1=0.567 | epoch_energy=0.01059 kWh
+Epoch 5/30 | val_loss=2.3955 val_top1=0.508 | epoch_energy=0.01060 kWh
+Epoch 6/30 | val_loss=2.3453 val_top1=0.545 | epoch_energy=0.01061 kWh
+Epoch 7/30 | val_loss=2.3473 val_top1=0.557 | epoch_energy=0.01075 kWh
+Epoch 8/30 | val_loss=2.3380 val_top1=0.574 | epoch_energy=0.01127 kWh
+Epoch 9/30 | val_loss=2.3765 val_top1=0.579 | epoch_energy=0.01144 kWh
+Epoch 10/30 | val_loss=2.3854 val_top1=0.587 | epoch_energy=0.01140 kWh
+Epoch 11/30 | val_loss=2.3756 val_top1=0.621 | epoch_energy=0.01148 kWh
+Epoch 12/30 | val_loss=2.3568 val_top1=0.601 | epoch_energy=0.01143 kWh
+Epoch 13/30 | val_loss=2.3597 val_top1=0.601 | epoch_energy=0.01096 kWh
+Epoch 14/30 | val_loss=2.3634 val_top1=0.597 | epoch_energy=0.01147 kWh
+Epoch 15/30 | val_loss=2.3602 val_top1=0.621 | epoch_energy=0.01140 kWh
+Epoch 16/30 | val_loss=2.3412 val_top1=0.657 | epoch_energy=0.01135 kWh
+Epoch 17/30 | val_loss=2.3741 val_top1=0.621 | epoch_energy=0.01129 kWh
+Epoch 18/30 | val_loss=2.3813 val_top1=0.644 | epoch_energy=0.01059 kWh
+Epoch 19/30 | val_loss=2.3855 val_top1=0.638 | epoch_energy=0.01059 kWh
+Epoch 20/30 | val_loss=2.4115 val_top1=0.629 | epoch_energy=0.01062 kWh
+Epoch 21/30 | val_loss=2.3670 val_top1=0.653 | epoch_energy=0.01061 kWh
+Epoch 22/30 | val_loss=2.3805 val_top1=0.663 | epoch_energy=0.01077 kWh
+Epoch 23/30 | val_loss=2.3953 val_top1=0.629 | epoch_energy=0.01077 kWh
+Epoch 24/30 | val_loss=2.3859 val_top1=0.649 | epoch_energy=0.01870 kWh
+Epoch 25/30 | val_loss=2.3889 val_top1=0.660 | epoch_energy=0.01721 kWh
+Epoch 26/30 | val_loss=2.4028 val_top1=0.647 | epoch_energy=0.02140 kWh
+Epoch 27/30 | val_loss=2.3956 val_top1=0.647 | epoch_energy=0.02140 kWh
+Epoch 28/30 | val_loss=2.3953 val_top1=0.653 | epoch_energy=0.02139 kWh
+Early stopping at epoch 28 -- no val_top1 improvement for 6 epochs.
+Total measured training energy (28 epochs): 0.35181 kWh
+
+=== 04.log: hybrid, learned gate, seed 7 (completed; discarded and rerun)
+Epoch 1/30 | val_loss=8.2698 val_top1=0.010 | epoch_energy=0.02515 kWh
+Epoch 2/30 | val_loss=7.9245 val_top1=0.052 | epoch_energy=0.02410 kWh
+Epoch 3/30 | val_loss=7.6034 val_top1=0.080 | epoch_energy=0.02097 kWh
+Epoch 4/30 | val_loss=7.3522 val_top1=0.084 | epoch_energy=0.02421 kWh
+Epoch 5/30 | val_loss=7.2531 val_top1=0.110 | epoch_energy=0.02420 kWh
+Epoch 6/30 | val_loss=6.9916 val_top1=0.121 | epoch_energy=0.07941 kWh
+Epoch 7/30 | val_loss=6.7931 val_top1=0.159 | epoch_energy=0.07890 kWh
+Epoch 8/30 | val_loss=6.8808 val_top1=0.121 | epoch_energy=0.08270 kWh
+Epoch 9/30 | val_loss=6.7651 val_top1=0.166 | epoch_energy=0.12048 kWh
+Epoch 10/30 | val_loss=6.6708 val_top1=0.158 | epoch_energy=0.08916 kWh
+Epoch 11/30 | val_loss=6.3105 val_top1=0.218 | epoch_energy=0.12068 kWh
+Epoch 12/30 | val_loss=6.1946 val_top1=0.259 | epoch_energy=0.10889 kWh
+Epoch 13/30 | val_loss=6.0025 val_top1=0.262 | epoch_energy=0.10789 kWh
+Epoch 14/30 | val_loss=6.0892 val_top1=0.237 | epoch_energy=0.10439 kWh
+Epoch 15/30 | val_loss=5.9631 val_top1=0.253 | epoch_energy=0.09730 kWh
+Epoch 16/30 | val_loss=6.0289 val_top1=0.247 | epoch_energy=0.11967 kWh
+Epoch 17/30 | val_loss=5.7722 val_top1=0.291 | epoch_energy=0.09374 kWh
+Epoch 18/30 | val_loss=5.7609 val_top1=0.276 | epoch_energy=0.12054 kWh
+Epoch 19/30 | val_loss=5.8091 val_top1=0.259 | epoch_energy=0.09428 kWh
+Epoch 20/30 | val_loss=5.8101 val_top1=0.267 | epoch_energy=0.10024 kWh
+Epoch 21/30 | val_loss=5.7341 val_top1=0.267 | epoch_energy=0.10732 kWh
+Epoch 22/30 | val_loss=5.7690 val_top1=0.272 | epoch_energy=0.05960 kWh
+Epoch 23/30 | val_loss=5.7030 val_top1=0.283 | epoch_energy=0.09443 kWh
+Early stopping at epoch 23 -- no val_top1 improvement for 6 epochs.
+Total measured training energy (23 epochs): 1.89825 kWh
+
+=== 05.log: hybrid, fixed 50:50, seed 7 (interrupted after 5 epochs; rerun)
+Epoch 1/30 | val_loss=8.2678 val_top1=0.026 | epoch_energy=0.08123 kWh
+Epoch 2/30 | val_loss=7.8843 val_top1=0.055 | epoch_energy=0.07671 kWh
+Epoch 3/30 | val_loss=7.3921 val_top1=0.090 | epoch_energy=0.03107 kWh
+Epoch 4/30 | val_loss=7.1969 val_top1=0.124 | epoch_energy=0.02333 kWh
+Epoch 5/30 | val_loss=7.0370 val_top1=0.122 | epoch_energy=0.01249 kWh

@@ -1,0 +1,14 @@
+[
+  ["--model", "mobilenet", "--mode", "train", "--seed", "7"],
+  ["--model", "resnet", "--mode", "train", "--seed", "7"],
+  ["--model", "vivit", "--mode", "train", "--seed", "7"],
+  ["--model", "timesformer", "--mode", "train", "--seed", "7"],
+  ["--model", "hybrid", "--mode", "train", "--seed", "7"],
+  ["--model", "hybrid", "--variant", "fixed", "--mode", "train", "--seed", "7"],
+  ["--model", "mobilenet", "--mode", "train", "--seed", "999"],
+  ["--model", "resnet", "--mode", "train", "--seed", "999"],
+  ["--model", "vivit", "--mode", "train", "--seed", "999"],
+  ["--model", "timesformer", "--mode", "train", "--seed", "999"],
+  ["--model", "hybrid", "--mode", "train", "--seed", "999"],
+  ["--model", "hybrid", "--variant", "fixed", "--mode", "train", "--seed", "999"]
+]

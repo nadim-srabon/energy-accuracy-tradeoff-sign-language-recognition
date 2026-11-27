@@ -1,0 +1,8 @@
+[
+  ["--model", "mobilenet", "--mode", "train", "--seed", "42", "--lr", "0.0001", "--validation-only"],
+  ["--model", "mobilenet", "--mode", "train", "--seed", "42", "--lr", "0.0003", "--validation-only"],
+  ["--model", "mobilenet", "--mode", "train", "--seed", "42", "--lr", "0.001", "--validation-only"],
+  ["--model", "vivit", "--mode", "train", "--seed", "42", "--lr", "0.0001", "--validation-only"],
+  ["--model", "vivit", "--mode", "train", "--seed", "42", "--lr", "0.0003", "--validation-only"],
+  ["--model", "vivit", "--mode", "train", "--seed", "42", "--lr", "0.001", "--validation-only"]
+]
